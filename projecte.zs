@@ -320,8 +320,8 @@ craftingTable.addShapeless("projecte/aeternalis_fuel",<item:projecte:aeternalis_
 );
 
 craftingTable.removeByName("projecte:dark_matter");
-craftingTable.addShapeless("projecte/dark_matter",<item:projecte:aeternalis_fuel> * 2, 
-[<item:projecte:aeternalis_fuel>, <item:projecte:dark_matter>]
+craftingTable.addShapeless("projecte/dark_matter",<item:projecte:dark_matter>, 
+[<item:projecte:aeternalis_fuel>, <item:mysticalagradditions:insanium_coal>]
 );
 
 craftingTable.removeByName("projecte:red_matter");
