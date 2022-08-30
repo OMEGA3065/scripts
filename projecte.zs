@@ -319,10 +319,12 @@ craftingTable.addShapeless("projecte/aeternalis_fuel",<item:projecte:aeternalis_
 [<item:projecte:mobius_fuel>, <item:projecte:mobius_fuel>, <item:mysticalagradditions:supremium_coal>, <item:mysticalagradditions:supremium_coal>]
 );
 
+craftingTable.removeByName("projecte:dark_matter");
 craftingTable.addShapeless("projecte/dark_matter",<item:projecte:aeternalis_fuel> * 2, 
 [<item:projecte:aeternalis_fuel>, <item:projecte:dark_matter>]
 );
 
+craftingTable.removeByName("projecte:red_matter");
 InfusionCrafting.addRecipe("projecte/red_matter", <item:projecte:red_matter>, 
 [<item:projecte:dark_matter>, <item:mysticalagradditions:insanium_nugget>, <item:avaritia:crystal_matrix_ingot>, <item:mysticalagradditions:insanium_nugget>, <item:avaritia:crystal_matrix_ingot>, <item:mysticalagradditions:insanium_nugget>, <item:avaritia:crystal_matrix_ingot>, <item:mysticalagradditions:insanium_nugget>, <item:avaritia:crystal_matrix_ingot>]
 );
