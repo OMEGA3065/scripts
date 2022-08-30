@@ -303,11 +303,6 @@ mods.extendedcrafting.TableCrafting.addShaped("projectex/final_star_shard", <ite
 ]
 );
 
-// mods.mysticalagriculture.InfusionCrafting.addRecipe(id as string, output as IItemStack, inputs as IIngredient[]);
-
-mods.mysticalagriculture.InfusionCrafting.addRecipe("test", <item:minecraft:stick> * 10, [<item:minecraft:diamond>, <tag:forge:ingots/iron>, <item:minecraft:stick>]);
-
-
 craftingTable.addShapless("projecte/alchemical_coal", <item:projecte:alchemical_coal> * 8, 
 [
 <item:mysticalagradditions:tertium_coal>, <item:mysticalagradditions:tertium_coal>, <item:mysticalagradditions:tertium_coal>,
