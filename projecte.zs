@@ -324,5 +324,5 @@ craftingTable.addShapeless("projecte/dark_matter",<item:projecte:aeternalis_fuel
 );
 
 InfusionCrafting.addRecipe("projecte/red_matter", <item:projecte:red_matter>, 
-[<item:avaritia:crystal_matrix_ingot>, <item:mysticalagradditions:insanium_nugget>, <item:avaritia:crystal_matrix_ingot>, <item:mysticalagradditions:insanium_nugget>, <item:avaritia:crystal_matrix_ingot>, <item:mysticalagradditions:insanium_nugget>, <item:avaritia:crystal_matrix_ingot>, <item:mysticalagradditions:insanium_nugget>]
+[<item:projecte:dark_matter>, <item:avaritia:crystal_matrix_ingot>, <item:mysticalagradditions:insanium_nugget>, <item:avaritia:crystal_matrix_ingot>, <item:mysticalagradditions:insanium_nugget>, <item:avaritia:crystal_matrix_ingot>, <item:mysticalagradditions:insanium_nugget>, <item:avaritia:crystal_matrix_ingot>, <item:mysticalagradditions:insanium_nugget>]
 );
