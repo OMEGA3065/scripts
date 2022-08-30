@@ -1,3 +1,4 @@
+import mods.mysticalagriculture.InfusionCrafting;
 // Philosopher Stone
 craftingTable.removeByName("projecte:philosophers_stone");
 craftingTable.removeByName("projecte:philosophers_stone_alt");
@@ -300,4 +301,33 @@ mods.extendedcrafting.TableCrafting.addShaped("projectex/final_star_shard", <ite
 [<item:projectex:colossal_star_omega>, <item:extendedcrafting:the_ultimate_block>, <item:projectex:colossal_star_omega>], 
 [<item:projectex:colossal_star_omega>, <item:projectex:colossal_star_omega>, <item:projectex:colossal_star_omega>]
 ]
+);
+
+// mods.mysticalagriculture.InfusionCrafting.addRecipe(id as string, output as IItemStack, inputs as IIngredient[]);
+
+mods.mysticalagriculture.InfusionCrafting.addRecipe("test", <item:minecraft:stick> * 10, [<item:minecraft:diamond>, <tag:forge:ingots/iron>, <item:minecraft:stick>]);
+
+
+craftingTable.addShapless("projecte/alchemical_coal", <item:projecte:alchemical_coal> * 8, 
+[
+<item:mysticalagradditions:tertium_coal>, <item:mysticalagradditions:tertium_coal>, <item:mysticalagradditions:tertium_coal>,
+<item:mysticalagradditions:tertium_coal>, <item:minecraft:coal>, <item:mysticalagradditions:tertium_coal>,
+<item:mysticalagradditions:tertium_coal>, <item:mysticalagradditions:tertium_coal>, <item:mysticalagradditions:tertium_coal>
+]
+);
+
+craftingTable.addShapless("projecte/mobius_fuel", <item:projecte:mobius_fuel> * 2, 
+[<item:mysticalagradditions:imperium_coal>, <item:mysticalagradditions:imperium_coal>, <item:mysticalagradditions:imperium_coal>, <item:mysticalagradditions:imperium_coal>, <item:projecte:alchemical_coal>, <item:projecte:alchemical_coal>, <item:projecte:alchemical_coal>, <item:projecte:alchemical_coal>]
+);
+
+craftingTable.addShapless("projecte/aeternalis_fuel",<item:projecte:aeternalis_fuel> * 2, 
+[<item:projecte:mobius_fuel>, <item:projecte:mobius_fuel>, <item:mysticalagradditions:supremium_coal>, <item:mysticalagradditions:supremium_coal>]
+);
+
+craftingTable.addShapless("projecte/dark_matter",<item:projecte:aeternalis_fuel> * 2, 
+[<item:projecte:aeternalis_fuel>, <item:projecte:dark_matter>]
+);
+
+InfusionCrafting.addRecipe("projecte/red_matter", <item:projecte:red_matter>, 
+[<item:avaritia:crystal_matrix_ingot>, <item:mysticalagradditions:insanium_nugget>, <item:avaritia:crystal_matrix_ingot>, <item:mysticalagradditions:insanium_nugget>, <item:avaritia:crystal_matrix_ingot>, <item:mysticalagradditions:insanium_nugget>, <item:avaritia:crystal_matrix_ingot>, <item:mysticalagradditions:insanium_nugget>]
 );
