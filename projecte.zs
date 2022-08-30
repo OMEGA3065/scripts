@@ -303,7 +303,7 @@ mods.extendedcrafting.TableCrafting.addShaped("projectex/final_star_shard", <ite
 ]
 );
 
-craftingTable.addShapless("projecte/alchemical_coal", <item:projecte:alchemical_coal> * 8, 
+craftingTable.addShapeless("projecte/alchemical_coal", <item:projecte:alchemical_coal> * 8, 
 [
 <item:mysticalagradditions:tertium_coal>, <item:mysticalagradditions:tertium_coal>, <item:mysticalagradditions:tertium_coal>,
 <item:mysticalagradditions:tertium_coal>, <item:minecraft:coal>, <item:mysticalagradditions:tertium_coal>,
@@ -311,15 +311,15 @@ craftingTable.addShapless("projecte/alchemical_coal", <item:projecte:alchemical_
 ]
 );
 
-craftingTable.addShapless("projecte/mobius_fuel", <item:projecte:mobius_fuel> * 2, 
+craftingTable.addShapeless("projecte/mobius_fuel", <item:projecte:mobius_fuel> * 2, 
 [<item:mysticalagradditions:imperium_coal>, <item:mysticalagradditions:imperium_coal>, <item:mysticalagradditions:imperium_coal>, <item:mysticalagradditions:imperium_coal>, <item:projecte:alchemical_coal>, <item:projecte:alchemical_coal>, <item:projecte:alchemical_coal>, <item:projecte:alchemical_coal>]
 );
 
-craftingTable.addShapless("projecte/aeternalis_fuel",<item:projecte:aeternalis_fuel> * 2, 
+craftingTable.addShapeless("projecte/aeternalis_fuel",<item:projecte:aeternalis_fuel> * 2, 
 [<item:projecte:mobius_fuel>, <item:projecte:mobius_fuel>, <item:mysticalagradditions:supremium_coal>, <item:mysticalagradditions:supremium_coal>]
 );
 
-craftingTable.addShapless("projecte/dark_matter",<item:projecte:aeternalis_fuel> * 2, 
+craftingTable.addShapeless("projecte/dark_matter",<item:projecte:aeternalis_fuel> * 2, 
 [<item:projecte:aeternalis_fuel>, <item:projecte:dark_matter>]
 );
 
