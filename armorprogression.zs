@@ -348,10 +348,6 @@ craftingTable.addShaped("rglboot", <item:mekanismtools:refined_glowstone_boots>,
 [<item:mekanism:ingot_refined_glowstone>, <item:mekanismtools:steel_boots>, <item:mekanism:ingot_refined_glowstone>]
 ]);
 
-craftingTable.removeByName("simplysteel:steel_helmet");
-craftingTable.removeByName("simplysteel:steel_chestplate");
-craftingTable.removeByName("simplysteel:steel_leggings");
-craftingTable.removeByName("simplysteel:steel_boots");
 craftingTable.removeByName("mekanismtools:steel/armor/helmet");
 craftingTable.removeByName("mekanismtools:steel/armor/chestplate");
 craftingTable.removeByName("mekanismtools:steel/armor/leggings");
