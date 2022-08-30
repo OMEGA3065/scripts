@@ -45,7 +45,7 @@ craftingTable.removeByName("projecte:gem_leggings");
 craftingTable.removeByName("projecte:gem_boots");
 
 craftingTable.removeByName("projecte:transmutation_tablet");
-mods.extendedcrafting.TableCrafting.addShaped("TransmutationTA", <item:projecte:transmutation_tablet>, 
+mods.extendedcrafting.TableCrafting.addShaped("projecte/transmutation_tablet", <item:projecte:transmutation_tablet>, 
 [
 [<item:projecte:klein_star_omega>, <item:projecte:klein_star_omega>, <item:extendedcrafting:the_ultimate_ingot>, <item:extendedcrafting:the_ultimate_ingot>, <item:extendedcrafting:the_ultimate_ingot>, <item:extendedcrafting:the_ultimate_ingot>, <item:extendedcrafting:the_ultimate_ingot>, <item:projecte:klein_star_omega>, <item:projecte:klein_star_omega>], 
 [<item:projecte:klein_star_omega>, <item:projectex:cyan_matter>, <item:botania:gaia_ingot>, <item:appliedenergistics2:quantum_entangled_singularity>, <item:appliedenergistics2:quantum_entangled_singularity>, <item:appliedenergistics2:quantum_entangled_singularity>, <item:botania:gaia_ingot>, <item:projectex:cyan_matter>, <item:projecte:klein_star_omega>], 
