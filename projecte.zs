@@ -324,6 +324,7 @@ craftingTable.addShapeless("projecte/dark_matter",<item:projecte:dark_matter>,
 [<item:projecte:aeternalis_fuel>, <item:mysticalagradditions:insanium_coal>]
 );
 
+craftingTable.removeByName("projecte:red_matter_alt");
 craftingTable.removeByName("projecte:red_matter");
 InfusionCrafting.addRecipe("projecte/red_matter", <item:projecte:red_matter>, 
 [<item:projecte:dark_matter>, <item:mysticalagradditions:insanium_nugget>, <item:avaritia:crystal_matrix_ingot>, <item:mysticalagradditions:insanium_nugget>, <item:avaritia:crystal_matrix_ingot>, <item:mysticalagradditions:insanium_nugget>, <item:avaritia:crystal_matrix_ingot>, <item:mysticalagradditions:insanium_nugget>, <item:avaritia:crystal_matrix_ingot>]
