@@ -6,7 +6,7 @@ craftingTable.addShaped("mekahelmet", <item:mekanism:mekasuit_helmet>,
 [
 [<item:mekanism:pellet_plutonium>, <item:mekanism:ultimate_control_circuit>, <item:mekanism:pellet_plutonium>],
 [<item:mekanism:hdpe_sheet>, <item:projecte:rm_helmet>, <item:mekanism:hdpe_sheet>],
-      [<item:mekanism:pellet_polonium>, <item:mekanism:ultimate_induction_cell>, <item:mekanism:pellet_polonium>]
+[<item:mekanism:pellet_polonium>, <item:mekanism:ultimate_induction_cell>, <item:mekanism:pellet_polonium>]
 ]);
 
 craftingTable.addShaped("mekachest", <item:mekanism:mekasuit_bodyarmor>,
