@@ -12,12 +12,12 @@ craftingTable.addShaped("heavy_engineering", <item:immersiveengineering:heavy_en
 
 craftingTable.removeByName("immersiveengineering:crafting/light_engineering");
 craftingTable.addShaped("light_engineering", <item:immersiveengineering:light_engineering>, [
-    [<item:mekanism:iron_enriched>, <item:minecraft:iron_ingot>, <item:mekanism:iron_enriched>], 
+    [<item:mekanism:enriched_iron>, <item:minecraft:iron_ingot>, <item:mekanism:enriched_iron>], 
     [<item:minecraft:iron_ingot>, <item:mekanism:crystal_copper>, <item:minecraft:iron_ingot>],
-    [<item:mekanism:iron_enriched>, <item:minecraft:iron_ingot>, <item:mekanism:iron_enriched>]]);
+    [<item:mekanism:enriched_iron>, <item:minecraft:iron_ingot>, <item:mekanism:enriched_iron>]]);
 
-    craftingTable.removeByName("immersiveengineering:crafting/redstone_engineering");
-craftingTable.addShaped("redstone_engineering", <item:immersiveengineering:redstone_engineering>, [
-    [<item:mekanism:iron_enriched>, <item:extendedcrafting:redstone_ingot>, <item:mekanism:iron_enriched>], 
+craftingTable.removeByName("immersiveengineering:crafting/rs_engineering");
+craftingTable.addShaped("redstone_engineering", <item:immersiveengineering:rs_engineering>, [
+    [<item:mekanism:enriched_iron>, <item:extendedcrafting:redstone_ingot>, <item:mekanism:enriched_iron>], 
     [<item:extendedcrafting:redstone_ingot>, <item:mekanism:crystal_osmium>, <item:extendedcrafting:redstone_ingot>],
-    [<item:mekanism:iron_enriched>, <item:extendedcrafting:redstone_ingot>, <item:mekanism:iron_enriched>]]);
+    [<item:mekanism:enriched_iron>, <item:extendedcrafting:redstone_ingot>, <item:mekanism:enriched_iron>]]);
