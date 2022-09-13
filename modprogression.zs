@@ -21,3 +21,9 @@ craftingTable.addShaped("redstone_engineering", <item:immersiveengineering:rs_en
     [<item:mekanism:enriched_iron>, <item:extendedcrafting:redstone_ingot>, <item:mekanism:enriched_iron>], 
     [<item:extendedcrafting:redstone_ingot>, <item:mekanism:crystal_osmium>, <item:extendedcrafting:redstone_ingot>],
     [<item:mekanism:enriched_iron>, <item:extendedcrafting:redstone_ingot>, <item:mekanism:enriched_iron>]]);
+
+craftingTable.removeByName("thermal:machine_frame");
+craftingTable.addShaped("machineframethermal", <item:thermal:machine_frame>, [
+    [<item:immersiveengineering:ingot_hop_graphite>, <item:immersiveengineering:ingot_hop_graphite>, <item:immersiveengineering:ingot_hop_graphite>], 
+    [<item:immersiveengineering:light_engineering>, <item:immersiveengineering:rs_engineering>, <item:immersiveengineering:heavy_engineering>],
+    [<item:immersiveengineering:ingot_hop_graphite>, <item:immersiveengineering:ingot_hop_graphite>, <item:immersiveengineering:ingot_hop_graphite>]]);
