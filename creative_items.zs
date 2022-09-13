@@ -188,3 +188,30 @@ mods.mysticalagriculture.InfusionCrafting.addRecipe("creativeessence", <item:mys
 );
 
 craftingTable.removeByName("projectex:final_star");
+
+mods.extendedcrafting.TableCrafting.addShaped("creativemanajararsnouveau", <item:ars_nouveau:creative_mana_jar>, 
+[
+[<item:mysticalagradditions:creative_essence>, <item:ars_nouveau:mana_jar>, <item:ars_nouveau:mana_jar>, <item:ars_nouveau:mana_jar>, <item:ars_nouveau:mana_jar>, <item:ars_nouveau:mana_jar>, <item:ars_nouveau:mana_jar>, <item:ars_nouveau:mana_jar>, <item:mysticalagradditions:creative_essence>], 
+[<item:ars_nouveau:mana_jar>, <item:ars_nouveau:mana_jar>, <item:ars_nouveau:mana_jar>, <item:ars_nouveau:mana_jar>, <item:ars_nouveau:mana_jar>, <item:ars_nouveau:mana_jar>, <item:ars_nouveau:mana_jar>, <item:ars_nouveau:mana_jar>, <item:ars_nouveau:mana_jar>], 
+[<item:ars_nouveau:mana_jar>, <item:ars_nouveau:mana_jar>, <item:ars_nouveau:mythical_clay>, <item:ars_nouveau:mythical_clay>, <item:ars_nouveau:mythical_clay>, <item:ars_nouveau:mythical_clay>, <item:ars_nouveau:mythical_clay>, <item:ars_nouveau:mana_jar>, <item:ars_nouveau:mana_jar>], 
+[<item:ars_nouveau:mana_jar>, <item:ars_nouveau:mana_jar>, <item:ars_nouveau:mythical_clay>, <item:extendedcrafting:the_ultimate_ingot>, <item:extendedcrafting:the_ultimate_ingot>, <item:extendedcrafting:the_ultimate_ingot>, <item:ars_nouveau:mythical_clay>, <item:ars_nouveau:mana_jar>, <item:ars_nouveau:mana_jar>], 
+[<item:ars_nouveau:mana_jar>, <item:ars_nouveau:mana_jar>, <item:ars_nouveau:mythical_clay>, <item:extendedcrafting:the_ultimate_ingot>, <item:extendedcrafting:the_ultimate_ingot>, <item:extendedcrafting:the_ultimate_ingot>, <item:ars_nouveau:mythical_clay>, <item:ars_nouveau:mana_jar>, <item:ars_nouveau:mana_jar>], 
+[<item:ars_nouveau:mana_jar>, <item:ars_nouveau:mana_jar>, <item:ars_nouveau:mythical_clay>, <item:extendedcrafting:the_ultimate_ingot>, <item:extendedcrafting:the_ultimate_ingot>, <item:extendedcrafting:the_ultimate_ingot>, <item:ars_nouveau:mythical_clay>, <item:ars_nouveau:mana_jar>, <item:ars_nouveau:mana_jar>], 
+[<item:ars_nouveau:mana_jar>, <item:ars_nouveau:mana_jar>, <item:ars_nouveau:mythical_clay>, <item:ars_nouveau:mythical_clay>, <item:ars_nouveau:mythical_clay>, <item:ars_nouveau:mythical_clay>, <item:ars_nouveau:mythical_clay>, <item:ars_nouveau:mana_jar>, <item:ars_nouveau:mana_jar>], 
+[<item:ars_nouveau:mana_jar>, <item:ars_nouveau:mana_jar>, <item:ars_nouveau:mana_jar>, <item:ars_nouveau:mana_jar>, <item:ars_nouveau:mana_jar>, <item:ars_nouveau:mana_jar>, <item:ars_nouveau:mana_jar>, <item:ars_nouveau:mana_jar>, <item:ars_nouveau:mana_jar>], 
+[<item:mysticalagradditions:creative_essence>, <item:ars_nouveau:mana_jar>, <item:ars_nouveau:mana_jar>, <item:ars_nouveau:mana_jar>, <item:ars_nouveau:mana_jar>, <item:ars_nouveau:mana_jar>, <item:ars_nouveau:mana_jar>, <item:ars_nouveau:mana_jar>, <item:mysticalagradditions:creative_essence>]
+]); 
+
+mods.extendedcrafting.TableCrafting.addShaped("creativemanacadaasembly", <item:psi:cad_assembly_creative>, 
+[
+[<item:mysticalagradditions:creative_essence>, <item:psi:cad_assembly_ebony_psimetal>, <item:psi:cad_assembly_ebony_psimetal>, <item:psi:cad_assembly_ebony_psimetal>, <item:psi:cad_assembly_ebony_psimetal>, <item:psi:cad_assembly_ebony_psimetal>, <item:psi:cad_assembly_ebony_psimetal>, <item:psi:cad_assembly_ebony_psimetal>, <item:mysticalagradditions:creative_essence>], 
+[<item:psi:cad_assembly_ebony_psimetal>, <item:psi:cad_assembly_ebony_psimetal>, <item:psi:cad_assembly_ebony_psimetal>, <item:psi:cad_assembly_ebony_psimetal>, <item:psi:cad_assembly_ebony_psimetal>, <item:psi:cad_assembly_ebony_psimetal>, <item:psi:cad_assembly_ebony_psimetal>, <item:psi:cad_assembly_ebony_psimetal>, <item:psi:cad_assembly_ebony_psimetal>], 
+[<item:psi:cad_assembly_psimetal>, <item:psi:cad_assembly_psimetal>, <item:psi:cad_assembly_psimetal>, <item:psi:cad_assembly_psimetal>, <item:psi:cad_assembly_psimetal>, <item:psi:cad_assembly_psimetal>, <item:psi:cad_assembly_psimetal>, <item:psi:cad_assembly_psimetal>, <item:psi:cad_assembly_psimetal>], 
+[<item:psi:psigem>, <item:psi:psigem>, <item:psi:psigem>, <item:avaritia:crystal_matrix_ingot>, <item:avaritia:crystal_matrix_ingot>, <item:avaritia:crystal_matrix_ingot>, <item:psi:psigem>, <item:psi:psigem>, <item:psi:psigem>], 
+[<item:psi:psigem>, <item:psi:psigem>, <item:psi:psigem>, <item:avaritia:crystal_matrix_ingot>, <item:avaritia:crystal_matrix_ingot>, <item:avaritia:crystal_matrix_ingot>, <item:psi:psigem>, <item:psi:psigem>, <item:psi:psigem>], 
+[<item:psi:psigem>, <item:psi:psigem>, <item:psi:psigem>, <item:avaritia:crystal_matrix_ingot>, <item:avaritia:crystal_matrix_ingot>, <item:avaritia:crystal_matrix_ingot>, <item:psi:psigem>, <item:psi:psigem>, <item:psi:psigem>], 
+[<item:psi:cad_assembly_psimetal>, <item:psi:cad_assembly_psimetal>, <item:psi:cad_assembly_psimetal>, <item:psi:cad_assembly_psimetal>, <item:psi:cad_assembly_psimetal>, <item:psi:cad_assembly_psimetal>, <item:psi:cad_assembly_psimetal>, <item:psi:cad_assembly_psimetal>, <item:psi:cad_assembly_psimetal>], 
+[<item:psi:cad_assembly_ivory_psimetal>, <item:psi:cad_assembly_ivory_psimetal>, <item:psi:cad_assembly_ivory_psimetal>, <item:psi:cad_assembly_ivory_psimetal>, <item:psi:cad_assembly_ivory_psimetal>, <item:psi:cad_assembly_ivory_psimetal>, <item:psi:cad_assembly_ivory_psimetal>, <item:psi:cad_assembly_ivory_psimetal>, <item:psi:cad_assembly_ivory_psimetal>], 
+[<item:mysticalagradditions:creative_essence>, <item:psi:cad_assembly_ivory_psimetal>, <item:psi:cad_assembly_ivory_psimetal>, <item:psi:cad_assembly_ivory_psimetal>, <item:psi:cad_assembly_ivory_psimetal>, <item:psi:cad_assembly_ivory_psimetal>, <item:psi:cad_assembly_ivory_psimetal>, <item:psi:cad_assembly_ivory_psimetal>, <item:mysticalagradditions:creative_essence>]
+]); 
+
