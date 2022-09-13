@@ -27,3 +27,9 @@ craftingTable.addShaped("machineframethermal", <item:thermal:machine_frame>, [
     [<item:immersiveengineering:ingot_hop_graphite>, <item:immersiveengineering:ingot_hop_graphite>, <item:immersiveengineering:ingot_hop_graphite>], 
     [<item:immersiveengineering:light_engineering>, <item:immersiveengineering:rs_engineering>, <item:immersiveengineering:heavy_engineering>],
     [<item:immersiveengineering:ingot_hop_graphite>, <item:immersiveengineering:ingot_hop_graphite>, <item:immersiveengineering:ingot_hop_graphite>]]);
+
+craftingTable.removeByName("industrialforegoing:machine_frame_pity");
+craftingTable.addShaped("machineframepity", <item:industrialforegoing:machine_frame_pity>, [
+    [<item:thermal:upgrade_augment_3>, <item:thermal:upgrade_augment_3>, <item:thermal:upgrade_augment_3>], 
+    [<item:minecraft:glass>, <item:thermal:machine_frame>, <item:minecraft:glass>],
+    [<item:thermal:upgrade_augment_3>, <item:thermal:upgrade_augment_3>, <item:thermal:upgrade_augment_3>]]);
