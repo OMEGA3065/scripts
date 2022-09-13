@@ -37,6 +37,6 @@ craftingTable.addShaped("machineframepity", <item:industrialforegoing:machine_fr
     [<item:minecraft:glass>, <item:thermal:machine_frame>, <item:minecraft:glass>],
     [<item:thermal:upgrade_augment_3>, <item:thermal:upgrade_augment_3>, <item:thermal:upgrade_augment_3>]]);
 
-craftingTable.removeByName("create:crating/materials/andesite_alloy");
-craftingTable.removeByName("create:crating/materials/andesite_alloy_from_zinc");
+
+craftingTable.removeRecipe(<item:create:andesite_alloy>);
 <recipetype:pneumaticcraft:pressure_chamber>.addRecipe("createandesitealloy", [<item:minecraft:iron_ingot>, <item:minecraft:andesite>, <item:pneumaticcraft:advanced_pcb> * 2], [<item:create:andesite_alloy>], 4.0);
