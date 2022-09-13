@@ -1,3 +1,6 @@
+<recipetype:tconstruct:casting_basin>.removeRecipe(<item:create:andesite_alloy>);
+<recipetype:thermal:smelter>.removeRecipe(<item:create:andesite_alloy>);
+
 craftingTable.removeByName("mekanism:metallurgic_infuser");
 craftingTable.addShaped("mekanism.infuser", <item:mekanism:metallurgic_infuser>, [
     [<item:minecraft:iron_ingot>, <item:minecraft:furnace>, <item:minecraft:iron_ingot>], 
