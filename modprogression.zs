@@ -39,4 +39,4 @@ craftingTable.addShaped("machineframepity", <item:industrialforegoing:machine_fr
 
 
 craftingTable.removeRecipe(<item:create:andesite_alloy>);
-<recipetype:pneumaticcraft:pressure_chamber>.addRecipe("createandesitealloy", [<item:minecraft:iron_ingot>, <item:minecraft:andesite>, <item:pneumaticcraft:advanced_pcb> * 2], [<item:create:andesite_alloy>], 4.0);
+<recipetype:pneumaticcraft:pressure_chamber>.addRecipe("createandesitealloy", [<item:minecraft:iron_ingot> * 8, <item:minecraft:andesite> * 8, <item:pneumaticcraft:advanced_pcb> * 2], [<item:create:andesite_alloy>], 4.0);
